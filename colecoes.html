@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleções</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Coleções</h1>
+    </header>
+    <main>
+        <form id="collection-form">
+            <input type="text" id="collection-name" placeholder="Nome da Coleção" required>
+            <input type="date" id="start-date" placeholder="Data de Início" required>
+            <input type="date" id="end-date" placeholder="Data de Fim" required>
+            <button type="submit">Salvar Coleção</button>
+        </form>
+        <div id="collection-list">
+            <!-- Lista de coleções será exibida aqui -->
+        </div>
+    </main>
+    <script src="scripts/colecoes.js"></script>
+</body>
+</html>
